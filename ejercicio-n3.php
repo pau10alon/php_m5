@@ -41,6 +41,7 @@
   echo 'n = '.$n.'<br>';
   echo 'm = '.$m.'<br>';
   calcular($n,$m);
+  echo 'El módulo da 0 porque no tiene sentido buscar el módulo con número float';
 
   todos($x,$y,$n,$m);
 
