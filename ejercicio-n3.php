@@ -18,8 +18,6 @@
   $m = 3.25;
 
   function calcular($i,$j){
-    echo 'x = '.$i.'<br>';
-    echo 'y = '.$j.'<br>';
     echo 'La suma es: '.($i+$j).'<br>';
     echo 'La resta es: '.($i-$j).'<br>';
     echo 'El producto es: '.($i*$j).'<br>';
@@ -35,9 +33,15 @@
     return 2*$i;
   }
   echo '<h1> Ejercicio 2 nivel 3 </h1>';
- 
+  
+  echo 'x = '.$x.'<br>';
+  echo 'y = '.$y.'<br>';
   calcular($x,$y);
+
+  echo 'n = '.$n.'<br>';
+  echo 'm = '.$m.'<br>';
   calcular($n,$m);
+
   todos($x,$y,$n,$m);
 
   echo 'El doble de x es: '.doble($x).'<br>';
